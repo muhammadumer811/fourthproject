@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notary Services</title>
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="icon" type="image/x-icon" href="images/web-logo.svg" />
+</head>
+<body>
+  <div class="main-container">
+
+    <!-- HEADER -->
+    <header class="header container">
+      <div class="header-logo">
+        <img src="images/blue-logo.svg" alt="Notary Services Logo" />
+      </div>
+      <nav class="header-nav">
+        <button class="lang-btn">english</button>
+        <button class="lang-btn">arabic</button>
+        <button class="btn-outline contact-btn">Contact</button>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <!-- left: hero text -->
+        <div class="hero-text">
+          <span class="section-label">Notary Services</span>
+          <h1 class="hero-heading">
+            Hire
+            <span class="highlight">
+              <img src="images/shine.svg" alt="" class="shine-icon" />
+              Better Faster
+              <img src="images/line.svg" alt="" class="line-icon" />
+            </span>
+            Legal talent
+          </h1>
+          <p>When you need us to improve your business, just sit back and let us handle the rest.</p>
+          <button class="btn-primary">Hire Now</button>
+        </div>
+
+        <!-- right: leads form -->
+        <div class="hero-form">
+          <div class="form-card">
+            <h2>Leads Form</h2>
+            <p>Fill this form to get started</p>
+            <form>
+              <label for="fullname">Full Name</label>
+              <input type="text" id="fullname" placeholder="Full name" />
+
+              <label for="email-id">Email</label>
+              <input type="email" id="email-id" placeholder="Email" />
+
+              <label for="pre-hint">Phone Number</label>
+              <div class="phone-group">
+                <select id="pre-hint">
+                  <option>+92</option>
+                  <option>+1</option>
+                  <option>+44</option>
+                </select>
+                <input type="tel" placeholder="456-7890" />
+              </div>
+
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Your message"></textarea>
+
+              <button type="submit" class="btn-primary full-width">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUSTED PARTNERS -->
+    <section class="trusted-partners bg-primary">
+      <div class="container">
+        <h2 class="section-heading">Trusted Partner</h2>
+        <div class="partners-grid">
+          <!-- repeat this block for each partner -->
+          <div class="partner-item">
+            <img src="images/tinyGoon.PNG" alt="TinyGoon" />
+            <h4>TinyGoon</h4>
+          </div>
+          <!-- … -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section class="about-us">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="images/arbi.png" alt="About Us" />
+        </div>
+        <div class="about-text">
+          <span class="section-label">One Year All You Need</span>
+          <h2>About Us</h2>
+          <p>Lorem ipsum dolor sit amet…</p>
+          <button class="btn-primary">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services">
+      <div class="container">
+        <h3 class="section-heading">Services We Are Providing</h3>
+        <p class="section-subtitle">Lorem ipsum dolor sit amet…</p>
+        <div class="services-grid">
+          <!-- repeat this block 8 times -->
+          <div class="service-card">
+            <img src="images/service.png" alt="Service" />
+            <h4>Mobile Notary Services</h4>
+          </div>
+          <!-- … -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING NOTICE -->
+    <section class="pricing-notice">
+      <div class="container">
+        <h3>Pricing Increase Soon</h3>
+        <p>Lorem ipsum dolor sit amet…</p>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="container">
+        <h3 class="section-heading">What Clients Say About Us</h3>
+        <div class="testimonial-grid">
+          <!-- repeat this block 4 times -->
+          <div class="testimonial-card">
+            <div class="stars">
+              <img src="images/star.svg" alt="" />…×5
+            </div>
+            <img src="images/google.svg" alt="Google Review" class="google-logo" />
+            <p>When you need us…</p>
+            <h4>John Doe</h4>
+          </div>
+          <!-- … -->
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="choose-us">
+      <div class="container choose-grid">
+        <div class="choose-text">
+          <h3 class="section-heading">Why Choose Us</h3>
+          <p>Lorem ipsum dolor sit amet…</p>
+          <div class="features-grid">
+            <!-- repeat 4 times -->
+            <div class="feature-card">
+              <img src="images/choose.svg" alt="" />
+              <h4>Quality</h4>
+              <p>Lorem ipsum dolor…</p>
+            </div>
+            <!-- … -->
+          </div>
+        </div>
+        <div class="choose-image">
+          <img src="images/choose-user.png" alt="Our Mascot" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ONLINE TOKEN -->
+    <section class="online-token bg-gradient">
+      <div class="container token-grid">
+        <div class="token-text">
+          <h3>Online Token</h3>
+          <p>Lorem ipsum dolor sit amet…</p>
+          <button class="btn-primary">
+            <img src="images/whatsapp.svg" alt="WhatsApp" />
+            Get Your Token
+          </button>
+        </div>
+        <div class="token-image">
+          <img src="images/vr-2.png" alt="VR Illustration" />
+        </div>
+      </div>
+    </section>
+
+    <!-- CUSTOMER LOVE -->
+    <section class="customer-love">
+      <div class="container love-grid">
+        <div class="love-text">
+          <h3 class="section-heading">2300+ Customers Love Us</h3>
+          <p>Lorem ipsum dolor sit amet…</p>
+          <h5>John Walker</h5>
+        </div>
+        <div class="love-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/UnAuwhu2C9Q"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR OFFICE -->
+    <section class="our-office">
+      <div class="container">
+        <h3 class="section-heading">Here Is Our Office</h3>
+        <div class="office-grid">
+          <img src="images/office.png" alt="Office" />
+          <img src="images/office.png" alt="Office" />
+          <img src="images/office.png" alt="Office" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer bg-primary">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="images/white-logo.svg" alt="Footer Logo" />
+        </div>
+        <button class="btn-outline">Contact</button>
+        <p>© Copyright 2024, All Rights Reserved</p>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
